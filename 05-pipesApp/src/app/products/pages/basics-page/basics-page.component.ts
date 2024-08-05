@@ -6,9 +6,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './basics-page.component.html',
   styleUrl: './basics-page.component.css'
 })
-export class BasicsPageComponent implements OnInit{
-  ngOnInit(): void {
-    console.log('Hello World')
-  }
+export class BasicsPageComponent{
+  public nameLower: string = 'sebastian';
+  public nameUpper: string = 'SEBASTIAN';
+  public nameWeird: string = 'SeBaSTIan';
 
+  public customDate: Date = new Date();
 }
