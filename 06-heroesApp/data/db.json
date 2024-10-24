@@ -2,7 +2,7 @@
   "users": [
     {
       "id": 1,
-      "usuario": "John Doe",
+      "user": "John Doe",
       "email": "john.due@gmail.com"
     }
   ],
@@ -157,7 +157,8 @@
       "publisher": "Marvel Comics",
       "alter_ego": "Scott Summers",
       "first_appearance": "X-Men #1",
-      "characters": "Scott Summers"
+      "characters": "Scott Summers",
+      "alt_img": "https://i.pinimg.com/564x/e3/c8/8d/e3c88dfa83cec25473074deb1a0d440e.jpg"
     },
     {
       "id": "marvel-silver",
@@ -166,6 +167,15 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "vuCZjkF",
+      "superhero": "Didpod",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Ryan Reynolds",
+      "first_appearance": "Didpod vs Wolfine",
+      "characters": "Didpod, Dogpod, Kidpod",
+      "alt_img": "https://comichub.blob.core.windows.net/high/c22debf5-0f12-4f78-811f-a12755930288.jpg"
     }
   ]
 }
