@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CounterAloneComponent } from '../../../alone/components/counter-alone/counter-alone/counter-alone.component';
 
 interface House {
   title: string;
@@ -8,7 +9,7 @@ interface House {
 
 @Component({
   templateUrl: './properties-page.component.html',
-  styleUrl: './properties-page.component.css'
+  styleUrl: './properties-page.component.css',
 })
 export class PropertiesPageComponent {
   public houses: House[] = [
